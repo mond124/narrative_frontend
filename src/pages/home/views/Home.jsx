@@ -1,6 +1,12 @@
+import {Helmet} from "react-helmet";
+
+
 export default function Home() {
   return (
     <div className=" w-10/12 mx-auto">
+    <Helmet>
+      <title>Home - Narrative</title>
+    </Helmet>
       {/* Hero page Start */}
       <section className="mt-24 max-w-screen-xl pb-12 px-4 items-center lg:flex md:px-8 ">
         <div className="space-y-4 flex-1 sm:text-center lg:text-left">
