@@ -24,7 +24,7 @@ export default function Footer() {
 
     {
       href: "javascript:void()",
-      name: "Suuport",
+      name: "Support",
     },
   ];
 
