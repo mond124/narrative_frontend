@@ -3,12 +3,12 @@ import {Helmet} from "react-helmet";
 
 export default function About() {
   return (
-    <div className=" w-10/12 mx-auto">
+    <div className="w-10/12 mx-auto">
     <Helmet>
-        <title>Layout2 - Narrative</title>
+        <title>About - Narrative</title>
     </Helmet>
       {/* Hero page Start */}
-        <section >
+        <div>
             <div className="text-sm breadcrumbs">
                 <ul>
                     <li><a>Home</a></li> 
@@ -85,7 +85,7 @@ export default function About() {
                     </small>
                 </a>
             </div>
-        </section>
+        </div>
       {/* Hero page End */}
     </div>
   );
